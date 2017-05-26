@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--wow.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--js動畫-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <title>Website Demo</title>
+</head>
+
+<!--data-offset填入.navbar的高度-->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- note nav -->
+    <!--導覽列開始-->
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- 導覽列 RWD選單圖示與品牌連結 -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+                    <span class="sr-only">觸發縮放</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">NIHOW</a>
+            </div>
+            <!-- 小螢幕時要被收起的元素 放置於 navbar-collapse -->
+            <div class="collapse navbar-collapse" id="main-navbar">
+                <!-- 拉到右邊的導覽列清單 -->
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li><a href="#">連結</a></li>-->
+                    <!--(li>a[href="#Section"])*5-->
+                    <li><a href="#BrandSpiritSection">Brand Spirit</a></li>
+                    <li><a href="#4StylesSection">4 Styles</a></li>
+                    <li><a href="#LookBookSection">Look Book</a></li>
+                    <li><a href="#ContactUsSection">Contact Us</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!--導覽列結束-->
+    <!-- note header -->
+    <header id="header" class="jumbotron">
+        <div class="jumbotron-content">
+            <h1>NIHOW</h1>
+            <p>HOMME</p>
+        </div>
+    </header>
+    <!-- note BrandSpiritSection -->
+    <section id="BrandSpiritSection">
+        <h1 class="section-title">- BRAND SPIRIT -</h1>
+        <!-- note main-features -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <p>Our team members started with only 10 people. We're Website developer,<br> Security engineer, Graphic Designer, Information Architect , But before the company scaled up, we're all wears more than one hat. We provide different kinds of Project management, Security and Data Storage solution packagefor our customers tempore, dolores consectetur? </p>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, nisi non corporis? Harum quasi tempore, dolores consectetur? Culpa velit, ipsam deleniti. Praesentium nesciunt eum porro debitis magni asperiores, suscipit quidem!
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- note 4StylesSection -->
+    <section id="4StylesSection">
+        <!--.row>(.col-sm-3.photo#photo-$>h3{project-$})*8-->
+        <div class="row">
+            <div class="col-sm-3 photo" id="photo-1"></div>
+            <div class="col-sm-3 photo" id="photo-2">
+                <h3>/cool series/</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-3">
+            </div>
+            <div class="col-sm-3 photo" id="photo-4">
+                <h3>/high-end series/</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-5">
+                <h3>/sense series/</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-6">
+            </div>
+            <div class="col-sm-3 photo" id="photo-7">
+                <h3>/basic series/</h3>
+            </div>
+            <div class="col-sm-3 photo" id="photo-8">
+            </div>
+        </div>
+    </section>
+    <!-- note LookBookSection -->
+    <section id="LookBookSection">
+        <h1 class="section-title">- LOOKBOOK -</h1>
+        <h2 class="sub-section-title">2017 SPRING / SUMMER</h2>
+        <!--.container>.row>.col-sm-8.col-sm-offset-2 -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2" id="lookbook">
+                </div>
+                <div class="col-sm-8 col-sm-offset-2" style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://www.youtube.com/embed/0ukrT0Urj2Q?ecver=2" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- note ContactUsSection -->
+    <section id="ContactUsSection">
+        <h1 class="section-title">- CONTACT US -</h1>
+        <div class="social-links">
+            <a href="#"><i class="wow bounce fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="wow bounce fa fa-2x fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" id="ig"><i class="wow bounce fa fa-2x fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <p class="address">英馳國際有限公司 │ 台北市萬華區武昌街二段85-5號5樓 │ (02)2388-8782 │ nihow.service@gmail.com</p>
+
+
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-bar">
+            <div class="container">
+                <p class="copy-right">COPYRIGHT © 2015 NIHOW ALL RIGHTS RESERVED.</p>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <a href="#header" id="scrollTopBtn">Back</a>
+
+</body>
+
+</html>

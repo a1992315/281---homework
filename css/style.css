@@ -1,0 +1,336 @@
+/* note general */
+
+section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: white;
+}
+
+#LookBookSection {
+    background-color: rgba(250, 252, 251, 1);
+}
+
+
+/* note fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Radley');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+}
+
+h1 {
+    font-family: 'Radley', serif;
+    color: rgba(237, 165, 176, 1);
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 500;
+}
+
+.sub-section-title {
+    text-align: center;
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-top: 0;
+}
+
+
+/* note nav */
+
+.navbar {
+    background-color: rgba(237, 165, 176, .5);
+}
+
+.navbar-header a,
+#main-navbar a {
+    color: white;
+}
+
+#main-navbar a:hover {
+    background-color: rgba(237, 165, 176, .5);
+}
+
+#main-navbar a.scroll {
+    color: #555;
+}
+
+.navbar-header a.scroll {
+    color: #555;
+}
+
+
+/* note header */
+
+header.jumbotron {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+    background-image: url('../img/header-jumbotron.jpg');
+    background-size: cover;
+    height: 900px;
+    width: auto;
+    border-image-repeat: no-repeat;
+    position: relative;
+}
+
+header.jumbotron:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(227, 138, 152, 0.5);
+    z-index: 1;
+    transition: all .5s ease;
+}
+
+header.jumbotron.scroll:after {
+    background-color: rgba(227, 138, 152, .1);
+}
+
+.jumbotron-content {
+    padding-top: 300px;
+    position: relative;
+    z-index: 3;
+}
+
+header.jumbotron h1 {
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-family: 'Radley', serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.jumbotron h1,
+.jumbotron p,
+.jumbotron a {
+    color: white;
+    letter-spacing: 6px;
+}
+
+header.jumbotron p {
+    font-size: 30px;
+}
+
+
+/* note subscribeSection */
+
+
+/* note BrandSpiritSection */
+
+#BrandSpiritSection p {
+    text-align: center;
+    line-height: inherit;
+    margin-bottom: 0;
+}
+
+#BrandSpiritSection {
+    margin-top: 125px;
+    margin-bottom: 160px;
+    padding-top: 20px;
+}
+
+
+/* 4 styles*/
+
+#4StylesSection {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.photo {
+    height: 400px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    transition: all .5s ease;
+}
+
+.photo h3 {
+    color: #555;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 400px;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all .5s ease;
+}
+
+.photo:hover h3 {
+    font-size: 20px;
+}
+
+#photo-1 {
+    background-image: url('../img/4styles-1-1.jpg');
+}
+
+#photo-2 {
+    background-image: url('../img/4styles.jpg');
+}
+
+#photo-3 {
+    background-image: url('../img/4styles-3-1.jpg');
+}
+
+#photo-4 {
+    background-image: url('../img/4styles.jpg');
+}
+
+#photo-5 {
+    background-image: url('../img/4styles.jpg');
+}
+
+#photo-6 {
+    background-image: url('../img/4styles-2-2.jpg');
+}
+
+#photo-7 {
+    background-image: url('../img/4styles.jpg');
+}
+
+#photo-8 {
+    background-image: url('../img/4styles-4-2.jpg');
+}
+
+
+/* lookbook */
+
+#LookBookSection {
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+#lookbook {
+    height: 4000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 30px;
+    background-image: url('../img/lookbook.jpg');
+}
+
+
+/* note contact us */
+
+#ContactUsSection {
+    padding-top: 100px;
+    background-color: rgba(237, 165, 176, .1);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.social-links a {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(237, 165, 176, 1);
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.social-links a i {
+    line-height: 60px;
+    color: white;
+}
+
+.social-links a:hover {
+    background-color: rgba(237, 165, 176, .7);
+}
+
+.social-links #ig {
+    margin-right: 0;
+}
+
+#ContactUsSection p {
+    margin-bottom: 0;
+}
+
+
+/* note footer */
+
+footer * {
+    color: white;
+}
+
+.footer-bar {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: #575a5a;
+}
+
+.footer-bar p {
+    line-height: 50px;
+    margin: 0;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#scrollTopBtn {
+    width: 60px;
+    height: 60px;
+    background-color: #575a5a;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 70px;
+    right: 35px;
+    text-decoration: none;
+    display: none;
+}
+
+#scrollTopBtn.scroll {
+    display: block;
+}
+
+#scrollTopBtn:hover,
+#scrollTopBtn:focus {
+    text-decoration: none;
+    outline: none;
+}
